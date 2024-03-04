@@ -1,0 +1,71 @@
+.BookingLanding {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.BookingLanding .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  position: relative;
+}
+
+.BookingLanding .header .left-arrow {
+  width: 7.5%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.BookingLanding .header .movie-icon {
+  width: 50%;
+}
+
+.BookingLanding .movie-info {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.BookingLanding .date-buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.BookingLanding .date-buttons .date-button {
+  padding: 10px;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.BookingLanding .cinema-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.BookingLanding .cinema-buttons .time-button {
+  margin: 10px;
+  padding: 10px;
+  background-color: green;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.BookingLanding .cinema-buttons .time-button:active {
+  border: 2px solid green;
+}
+
+.booking-scrollable-container {
+  max-height: 325px;
+  scrollbar-width: none;
+  overflow-y: auto;
+}
+

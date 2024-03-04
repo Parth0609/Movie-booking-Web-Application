@@ -1,0 +1,73 @@
+.cinema-screen {
+  display: block;
+  margin: 20px auto; /* Add top margin */
+  width: 70%;
+}
+
+.movie-details {
+  text-align: center;
+  margin-bottom: 20px; /* Add bottom margin */
+}
+
+.seating-chart {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 10px; /* Adjust this value to increase or decrease the gap between seats */
+  padding: 0 20px; /* Add side margin */
+  margin-bottom: 20px; /* Add bottom margin */
+}
+
+.seat {
+  width: calc(100% / 12 - 10px); /* Adjust the subtraction value to match the gap */
+  border: 1px solid black;
+}
+
+.seat.selected {
+  background-color: green;
+}
+
+.book-button {
+  display: block;
+  width: 50%; /* Increase the size of the button */
+  margin: 20px auto; /* Add top and bottom margin and center the button */
+  border-radius: 20px; /* Add rounded borders */
+}
+
+.back-button {
+  top: 0;
+  left: 0;
+  width: 34.5px; /* Increase by 15% */
+  height: 34.5px; /* Increase by 15% */
+  margin-left: 20px; /* Add left margin */
+}
+
+.back-button img {
+  width: 100%;
+  height: 100%;
+}
+
+.booking-confirmed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 9999;
+}
+
+.party-gif {
+  width: 100%;
+  max-width: 800px; /* Increase the maximum width */
+}
+
+.confirmation-text {
+  color: white; /* Make the text white to stand out against the dark background */
+  font-size: 2em; /* Increase the font size */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a shadow to make the text more readable */
+}

@@ -1,0 +1,19 @@
+.CheckoutPage {
+    position: absolute;
+    text-align: center;
+    margin-left: 20px; /* Add left margin to create a gap between the sidebar and the cinema icon */
+  }
+  
+  .cinema-icon {
+    margin-left: 40px;
+    /* position: absolute; */
+    height: 70%; /* Reduce the height of the cinema icon by half */
+    width: 70%
+  }
+  
+  .qr-code {
+    height: 15%;
+    width: 15%; /* Reduce the height of the QR code to a quarter of its current size */
+    margin: 50px auto; /* Center the QR code and add top and bottom margin */
+  }
+  
