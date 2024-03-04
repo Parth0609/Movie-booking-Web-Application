@@ -10,9 +10,13 @@ Features:
 
    
 Technologies Used:
-1. React.js: The entire frontend of the application is built using React.js. It uses functional components and hooks for state management.
-2. React Hooks: The application uses several React Hooks:
-    useState: This hook is used to add state to the functional components. It’s used to keep track of variables such as the selected movie, selected cinema, selected time, and selected seats.
-    useEffect: This hook is used to perform side effects in the components. It’s used to fetch data from an API when the component mounts.
-3. React Router: React Router is used for navigation between different pages (Home, Search, Booking, Seat Selection, and Checkout).
-4. CSS: All the styling is done using CSS. Each component has its own CSS file for encapsulated styling.
+1. React.js: Proficiency in using React.js to build user interfaces. This includes understanding concepts like JSX, components, props, and state.
+2. React Hooks: Knowledge of React Hooks, specifically useState and useEffect, and their use cases. useState is used for adding state to functional components and useEffect is used for performing side effects in the components.
+3. React Router: Experience with React Router for handling routing in a React application.
+4. JavaScript: Strong JavaScript skills, including ES6 features like arrow functions, template literals, and destructuring assignment.
+5. CSS: Ability to write CSS for styling React components. This includes understanding of selectors, properties, values and how to apply them to style HTML elements.
+6. API Integration: Skills in fetching data from an API and using it in a React application.
+7. Problem Solving: Ability to break down the problem into smaller tasks and solve each task one by one.
+8. Version Control/Git: Experience using Git for version control to track changes and manage project versions.
+9. Code Organization: Skills in organizing code in a readable and maintainable way. This includes proper indentation, use of comments, and appropriate naming conventions.
+10. Responsive Design: Understanding of how to create a design that responds to the size of the screen and works on a variety of devices.
